@@ -1,0 +1,42 @@
+[
+  {
+    "purchaseDate": "2024-10-17",
+    "city": "Tirana",
+    "product": "Monitor",
+    "expenses": -36654,
+    "revenue": 3029,
+    "days": 40
+  },
+  {
+    "purchaseDate": "2024-10-10",
+    "city": "Berlin",
+    "product": "Iphone",
+    "expenses": -94605,
+    "revenue": 139424,
+    "days": 47
+  },
+  {
+    "purchaseDate": "2024-09-01",
+    "city": "Tirana",
+    "product": "Tablet",
+    "expenses": -21849,
+    "revenue": 9289,
+    "days": 85
+  },
+  {
+    "purchaseDate": "2024-09-25",
+    "city": "Berlin",
+    "product": "Keyboard",
+    "expenses": -45805,
+    "revenue": 43802,
+    "days": 62
+  },
+  {
+    "purchaseDate": "2024-08-26",
+    "city": "Berlin",
+    "product": "Tablet",
+    "expenses": -37956,
+    "revenue": 110239,
+    "days": 92
+  }
+]
