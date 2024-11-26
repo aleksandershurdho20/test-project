@@ -1,3 +1,7 @@
+const path = require('path');
+const fs = require("fs");
+const { dataDir } = require('../constants/directory');
+
 const loadData = () => {
     const records = [];
     for (let i = 1; i <= 3; i++) {

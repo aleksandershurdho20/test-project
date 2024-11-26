@@ -2,7 +2,7 @@
   {
     "purchaseDate": "2024-08-19",
     "city": "Rome",
-    "product": "Tablet",
+    "product": "rererere",
     "expenses": -80442,
     "revenue": 110188,
     "days": 99
@@ -21,7 +21,7 @@
     "product": "Tablet",
     "expenses": -60529,
     "revenue": 10919,
-    "days": 101
+    "days": 102
   },
   {
     "purchaseDate": "2024-10-31",
@@ -29,7 +29,7 @@
     "product": "Iphone",
     "expenses": -21799,
     "revenue": 105880,
-    "days": 25
+    "days": 26
   },
   {
     "purchaseDate": "2024-08-03",

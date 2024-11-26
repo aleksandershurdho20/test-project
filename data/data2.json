@@ -5,7 +5,7 @@
     "product": "Iphone",
     "expenses": -18677,
     "revenue": 18404,
-    "days": 67
+    "days": 68
   },
   {
     "purchaseDate": "2024-10-06",
@@ -21,7 +21,7 @@
     "product": "Monitor",
     "expenses": -44892,
     "revenue": 55015,
-    "days": 100
+    "days": 101
   },
   {
     "purchaseDate": "2024-09-19",
@@ -29,7 +29,7 @@
     "product": "Monitor",
     "expenses": -71739,
     "revenue": 58621,
-    "days": 67
+    "days": 68
   },
   {
     "purchaseDate": "2024-08-12",
