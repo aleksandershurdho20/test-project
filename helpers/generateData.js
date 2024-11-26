@@ -4,9 +4,19 @@ const generateData = () => {
     const data = [];
 
     const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
-    const getRandomDate = () => new Date(Date.now() - Math.floor(Math.random() * 120 * 24 * 60 * 60 * 1000));
-    const getRandomExpense = () => Math.floor(Math.random() * -100000);
-    const getRandomRevenue = () => Math.floor(Math.random() * 150000);
+    
+    const getRandomDate = () => {
+        const now = Date.now();
+        return new Date(now - Math.floor(Math.random() * 100 * 24 * 60 * 60 * 1000));
+    };
+    
+    const getRandomExpense = () => {
+        return Math.floor(Math.random() * -10000 * 100);
+    };
+    
+    const getRandomRevenue = () => {
+        return Math.floor(Math.random() * 15000 * 100);
+    };
 
     for (let i = 0; i < 5; i++) {
         const purchaseDate = getRandomDate();
@@ -27,4 +37,4 @@ const generateData = () => {
 
 module.exports = {
     generateData
-}
+};
