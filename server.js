@@ -9,6 +9,7 @@ const PORT = 5000;
 
 app.use(express.json());
 app.use(express.static("public"));
+initializeData();
 
 app.get("/api/data", (req, res) => {
   res.json(loadData());
@@ -19,7 +20,6 @@ app.post("/api/data", (req, res) => {
   res.status(200).send("Data saved successfully");
 });
 
-initializeData();
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });

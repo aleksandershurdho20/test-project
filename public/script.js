@@ -76,8 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <td><input type="date" class="input-field" value="${row.purchaseDate}" required></td>
                         <td><input type="text" class="input-field" value="${row.city}" required></td>
                         <td><input type="text" class="input-field" value="${row.product}" required></td>
-                        <td><input type="number" class="input-field expenses" step="0.01" value="${(row.expenses / 100).toFixed(2)}" required></td>
-                        <td><input type="number" class="input-field revenue" step="0.01" value="${(row.revenue / 100).toFixed(2)}" required></td>
+                       <td><input type="number" class="input-field expenses" step="0.01" value="${(parseFloat(row.expenses) / 100).toFixed(2)}" required></td>
+                        <td><input type="number" class="input-field revenue" step="0.01" value="${(parseFloat(row.revenue) / 100).toFixed(2)}" required></td>
                         <td>${row.days}</td>
                         <td><button class="save-btn">Save</button></td>
                     </tr>
